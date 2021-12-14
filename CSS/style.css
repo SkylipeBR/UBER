@@ -117,10 +117,10 @@ section .content .secure .secure-img img
 
 div.benefits 
 {
-    background: url('../Images/banner.jfif');
+    background: url('../Images/Earner_Home_bg_desktop2x.jfif');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     padding: 10px;
 }
 
@@ -129,12 +129,39 @@ div.benefits
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: row;
 }
 
 
 .benefits .content .box-benefits
 {
+    position: relative;
+    top: 100px;
     width: 600px;
     background: #fff;
+    color: #000;
     padding: 10px;
+}
+
+.benefits .content .box-benefits .box-text *
+{
+    padding: 20px;
+}
+
+.benefits .content .box-benefits .box-text h1
+{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.benefits .content .box-benefits .box-text p
+{
+    margin: 0px 0px 30px;
+}
+
+.benefits .content .box-benefits .box-text #btn-box
+{
+    color: #fff;
+    background: #000;
+    margin: 30px;
 }
