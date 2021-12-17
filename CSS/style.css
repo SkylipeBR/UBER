@@ -136,32 +136,104 @@ div.benefits
 .benefits .content .box-benefits
 {
     position: relative;
-    top: 100px;
+    top: 50px;
     width: 600px;
+    position: relative;
+    left: 50px;
     background: #fff;
     color: #000;
-    padding: 10px;
-}
-
-.benefits .content .box-benefits .box-text *
-{
-    padding: 20px;
+    padding: 50px 30px;
 }
 
 .benefits .content .box-benefits .box-text h1
 {
     font-size: 4em;
     font-weight: 500;
+    padding: 10px 0px;
 }
 
 .benefits .content .box-benefits .box-text p
 {
-    margin: 0px 0px 30px;
+    margin: 0px 0px 50px;
 }
 
 .benefits .content .box-benefits .box-text #btn-box
 {
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
     color: #fff;
     background: #000;
-    margin: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    transition: 0.35s;
+}
+
+.benefits .content .box-benefits .box-text #btn-box:hover
+{
+    background: rgb(32, 32, 32)0;
+}
+
+
+.benefits .content .box-benefits .box-text #link-box
+{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    position: relative;
+    top: 20px;
+    padding: 10px 0px;
+    margin: 30px 0px;
+    transition: 0.25s;
+}
+
+.benefits .content .box-benefits .box-text #link-box:hover
+{
+    border-bottom: 1px solid #000;
+}
+
+.benefits .content .box-benefits .icons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.benefits .content .box-benefits .icons .net-icon ion-icon,
+.benefits .content .box-benefits .icons .food-icon ion-icon,
+.benefits .content .box-benefits .icons .car-icon ion-icon
+{
+    font-size: 2em;
+}
+
+.benefits .content .box-benefits .icons .net-icon h4,
+.benefits .content .box-benefits .icons .food-icon h4,
+.benefits .content .box-benefits .icons .car-icon h4
+{
+    font-size: 0.98em;
+    font-weight: 400;
+}
+
+
+.empresas-uber
+{
+    background: url(../Images/CIDADE.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: #000;
+}
+
+.empresas-uber .content
+{
+    position: relative;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
 }
